@@ -53,7 +53,7 @@ public class project {
             }   
         // add file of existing directory array 
             // folderChooser = folder = foc
-		  try {
+		 /* try {
 			  
 			  JFileChooser foc = new JFileChooser();
 			    foc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
@@ -65,11 +65,11 @@ public class project {
 			    f.createNewFile();
 			  
 		       }
-		  } 
+		  } */
 		// delete file from the existing directory list
 			    catch(Exception e){
  
-			    File file = new File("C:\\Users\\Mayank\\Desktop\\1.txt");
+			    File file = new File(" ");
 		          
 		        if(file.delete())
 		        {
